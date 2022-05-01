@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="index.css">
+        <script src="index.js"></script>
+
+    </head>
+    <body>
+        <div class="landscape">
+            <div class="mountain"></div>
+            <div class="mountain mountain-2"></div>
+            <div class="mountain mountain-3"></div>
+            <div class="sun-container sun-container-1">
+            </div>
+            <div class="sun-container">
+              <div class="sun"></div>
+            </div>
+            <div class="cloud"></div>
+            <div class="cloud cloud-1"></div>
+            <div class="sun-container sun-container-reflection">
+              <div class="sun"></div>
+            </div>
+            <div class="light"></div>
+            <div class="light light-1"></div>
+            <div class="light light-2"></div>
+            <div class="light light-3"></div>
+            <div class="light light-4"></div>
+            <div class="light light-5"></div>
+            <div class="light light-6"></div>
+            <div class="light light-7"></div>
+            <div class="water"></div>
+            <div class="splash"></div>
+            <div class="splash delay-1"></div>
+            <div class="splash delay-2"></div>
+            <div class="splash splash-4 delay-2"></div>
+            <div class="splash splash-4 delay-3"></div>
+            <div class="splash splash-4 delay-4"></div>
+            <div class="splash splash-stone delay-3"></div>
+            <div class="splash splash-stone splash-4"></div>
+            <div class="splash splash-stone splash-5"></div>
+            <div class="lotus lotus-1"></div>
+            <div class="lotus lotus-2"></div>
+            <div class="lotus lotus-3"></div>
+            <div class="front">
+              <div class="stone"></div>
+              <div class="grass"></div>
+              <div class="grass grass-1"></div>
+              <div class="grass grass-2"></div>
+              <div class="reed"></div>
+              <div class="reed reed-1"></div>
+            </div>
+            <form id="myform" name="calc">
+                <input name="display" style="width : 640px; height : 300px; text-align :center; background-color:bisque"; placeholder="Enter Your Value"><br>
+            </form>
+                <input type="button" value="0" onclick="calc.display.value+=0" style="margin-top: 25%; margin-left: 25%">
+                <input type="button" value="1" onclick="calc.display.value+=1" style="margin-top: 25%; margin-left: 36%">
+                <input type="button" value="2" onclick="calc.display.value+=2" style="margin-top: 25%; margin-left: 47%">
+                <input type="button" value="+" onclick="calc.display.value+='+'" style="background-color: blue; margin-top: 25%; margin-left: 58%"><br>
+                <input type="button" value="3" onclick="calc.display.value+=3" style="margin-top: 31%; margin-left: 25%">
+                <input type="button" value="4" onclick="calc.display.value+=4" style="margin-top: 31%; margin-left: 36%">
+                <input type="button" value="5" onclick="calc.display.value+=5" style="margin-top: 31%; margin-left: 47%">
+                <input type="button" value="-" onclick="calc.display.value+='-'" style="background-color: blue; margin-top: 31%; margin-left: 58%"><br>
+                <input type="button" value="6" onclick="calc.display.value+=6" style="margin-top: 37%; margin-left: 25%">
+                <input type="button" value="7" onclick="calc.display.value+=7" style="margin-top: 37%; margin-left: 36%">
+                <input type="button" value="8" onclick="calc.display.value+=8" style="margin-top: 37%; margin-left: 47%">
+                <input type="button" value="x" onclick="calc.display.value+='*'" style="background-color: blue; margin-top: 37%; margin-left: 58%"><br>
+                <input type="button" value="9" onclick="calc.display.value+=9" style="margin-top: 43%; margin-left: 25%">
+                <input type="button" value="C" onclick="calc.display.value=''" style="background-color:darkblue; margin-top: 43%; margin-left: 36%">
+                <input type="button" value="=" onclick="calc.display.value=eval(calc.display.value)" style="background-color: blue; margin-top: 43%; margin-left: 47%">
+                <input type="button" value="/" onclick="calc.display.value+='/'" style="background-color: blue; margin-top: 43%; margin-left: 58%">
+            </form>
+          </div>
+        
+        
+    </body>
+
+</html>
